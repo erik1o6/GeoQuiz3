@@ -30,9 +30,12 @@
                 android:layout_gravity="center_vertical" />
         </LinearLayout>
     <Button
+        android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/next_button"
-        android:id="@+id/next_button"/>
+        android:drawableRight="@drawable/arrow_right"
+
+        />
 
 </LinearLayout>
