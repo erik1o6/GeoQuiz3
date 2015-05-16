@@ -6,10 +6,9 @@
     android:gravity="center">
 
         <TextView
-            android:text="@string/question_text"
+            android:id="@+id/question_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView"
             android:padding="24dp" />
 
         <LinearLayout
@@ -30,4 +29,10 @@
                 android:id="@+id/false_button"
                 android:layout_gravity="center_vertical" />
         </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"
+        android:id="@+id/next_button"/>
+
 </LinearLayout>
