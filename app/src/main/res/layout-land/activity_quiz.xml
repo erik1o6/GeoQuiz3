@@ -36,22 +36,23 @@
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        >
+        android:layout_gravity="bottom|right">
         <Button
             android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/back_button"
-            android:drawableRight="@drawable/arrow_left"
-            />
-    <Button
-        android:id="@+id/next_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next_button"
-        android:drawableRight="@drawable/arrow_right"
-        />
-
+            android:drawableRight="@drawable/arrow_left"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat_button"
+            android:id="@+id/cheat_button"/>
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_button"
+            android:drawableRight="@drawable/arrow_right"/>
     </LinearLayout>
 </FrameLayout>
